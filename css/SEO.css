@@ -1,0 +1,60 @@
+/*Documento CSS*/
+
+* {margin: 0;
+padding: 0%;}
+body{font-family: "Caveat Brush", cursive;}
+
+div.accion a {background-color: #2B3034;
+                 display: block;
+                 width: 300px;
+                 text-align: center;
+                padding: 8px 0px;
+                color: #B9C7D2;
+                 text-decoration: none;
+                border-radius: 8px; 
+                 margin: 16px auto;}
+    
+div.accion a:hover {background-color: #627C8C;}
+div.accion a:active {background-color: #989398 ;}
+
+.contenido p:nth-child(3) {  background-color: #989398;
+                             padding: 16px;
+                             border-radius: 8px; 
+                            border: 1px dotted;
+                        box-shadow: 0px 0px 3px ;
+                    width: 50% ;
+                margin: 16px auto;}
+
+#atencion::before, #atencion::after {content:"";
+                     display: block;
+                     width: 30px ;
+                     height: 30px; 
+                     background-image: url(../Imagenes/finanzas/exclamation-diamond\ \(1\).svg);
+                     background-size: cover;}
+
+#atencion::after    {position: relative;
+                     left: 200px;}
+
+.Cuerpo  {width: 85%;
+         margin: 0px auto;}
+
+img.supervivencia   {width: 50%;
+                     height: auto;}
+
+.contenedor img {width: 100%;
+                 height: auto;}
+
+.contenedor {display: flex;}
+
+.items1 {width: 50%;
+        min-width: 1px;}
+
+.items1 {width: 33.3%;
+        min-width: 1px;}
+
+.video iframe {width: 100% ;
+               height: 300px;}
+
+.video  {width: 50%;
+         min-height: 450px;
+         margin: auto;}    
